@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#236AB9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/phrase_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="24dp"
+        android:background="#D4E4F7"
+        android:text=""
+        android:textSize="36sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FC7307"
+        android:textColor="#FFFFFF"
+        android:text="get phrase"
+        android:textAllCaps="true"
+        android:onClick="getPhrase"/>
+
+</RelativeLayout>
